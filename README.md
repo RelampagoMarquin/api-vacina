@@ -43,6 +43,7 @@ ENDPOIT: DELETE /paciente/:id
 ENTRADA: NENHUMA
 SAIDA: {paciente eliminado com sucesso}.
 DESCRIÇÃO:  Deleta o paciente de acordo com o id fornecido (método padrão, pode ser usado como na descrição de métodos padrões).
+
 ==============================================================================================================
 PACIENTE:
 
@@ -72,6 +73,7 @@ ENTRADA:
 
 SAIDA: Paciente {dados do paciente}.
 DESCRIÇÃO: altera um existente paciente.
+
 ============================================================================================================
 UNIDADE:
 
@@ -109,6 +111,7 @@ ENTRADA:
 
 SAIDA: Unidade {dados da unidade}.
 DESCRIÇÃO: Altera uma unidade existente.
+
 ===========================================================================================================
 VACINA:
 
@@ -133,6 +136,7 @@ ENTRADA:
 ```
 SAIDA: Vacina {dados da vacina}.
 DESCRIÇÃO: Altera uma vacina existente.
+
 ============================================================================================================
 AGENTE:
 
@@ -180,6 +184,7 @@ ENTRADA:
 ```
 SAIDA: Agente {dados do agente}.
 DESCRIÇÃO: Altera um agente de id e vinculado a unidade_id fornecido.
+
 ==========================================================================================================
 
 VACINACAO:
